@@ -1,0 +1,9 @@
+<?php 
+echo "<h1>Hello</h1>";
+ 
+$data = array("Andi", "Budi", "Caca,Rita");
+
+foreach($data as $a){
+  echo $a."<br/>";
+}
+?>
